@@ -1,0 +1,33 @@
+{
+  "name": "button",
+  "version": "1.0.0",
+  "description": "A simple button",
+  "svelte": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "Timo Bechtel",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/svelte": "^5.3.18",
+    "@testing-library/svelte": "^3.0.0",
+    "babel-jest": "^26.0.1",
+    "babel-loader": "^8.1.0",
+    "jest": "^26.0.1",
+    "svelte": "^3.22.2",
+    "svelte-jester": "^1.0.5",
+    "svelte-loader": "^2.13.6"
+  },
+  "dependencies": {}
+}
